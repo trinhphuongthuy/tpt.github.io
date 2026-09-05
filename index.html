@@ -3,55 +3,157 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio của tôi</title>
+
+    <title>Portfolio | Chán</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <header>
-        <h1>Xin chào, mình là Chán👋</h1>
-        <p>Sinh viên Khoa học Dữ liệu</p>
-    </header>
-
+    <!-- Thanh menu -->
     <nav>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
+        <h2>Chán.</h2>
+
+        <div class="menu">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
     </nav>
 
+
+    <!-- Trang chủ -->
+    <section id="home" class="hero">
+
+        <div class="hero-text">
+            <p class="hello">HELLO, I'M</p>
+
+            <h1>Chán 👋</h1>
+
+            <h2>Data Science Student</h2>
+
+            <p>
+                Mình là sinh viên Khoa học Dữ liệu,
+                yêu thích Data Analysis, Machine Learning
+                và xây dựng những thứ thú vị bằng dữ liệu và yêu thích đồ họa pts logo 3d
+            </p>
+
+            <a class="button" href="#projects">
+                Xem Projects
+            </a>
+        </div>
+
+        <div class="hero-card">
+            <div class="avatar">
+                👨‍💻
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- About -->
     <section id="about">
-        <h2>About Me</h2>
-        <p>
-            Mình là sinh viên Khoa học Dữ liệu,
-            yêu thích phân tích dữ liệu và Machine Learning.
-        </p>
+
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about-box">
+
+            <div>
+                <h3>Who am I?</h3>
+
+                <p>
+                    Mình đang trên đường phát triển và học hỏi cách làm những sản phẩm thật tuyệt
+                </p>
+            </div>
+
+            <div class="info">
+                <p><b>🎓 Major:</b> Data Science</p>
+                <p><b>📍 Location:</b> Vietnam</p>
+                <p><b>💻 Focus:</b> Data & AI</p>
+            </div>
+
+        </div>
+
     </section>
 
+
+    <!-- Skills -->
     <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>Python</li>
-            <li>SQL</li>
-            <li>Data Analysis</li>
-            <li>Machine Learning</li>
-        </ul>
+
+        <h2 class="section-title">My Skills</h2>
+
+        <div class="skills-container">
+
+            <div class="skill">
+                <h3>🐍 Python</h3>
+                <p>Data Analysis & Machine Learning</p>
+            </div>
+
+            <div class="skill">
+                <h3>🗄️ SQL</h3>
+                <p>Database & Data Query</p>
+            </div>
+
+            <div class="skill">
+                <h3>📊 Data Analysis</h3>
+                <p>Exploring and visualizing data</p>
+            </div>
+
+            <div class="skill">
+                <h3>🤖 Machine Learning</h3>
+                <p>Building predictive models</p>
+            </div>
+
+        </div>
+
     </section>
 
+
+    <!-- Projects -->
     <section id="projects">
-        <h2>Projects</h2>
 
-        <h3>Project 1</h3>
-        <p>portfolio cá nhân này mong độc giả xem qua.</p>
+        <h2 class="section-title">My Projects</h2>
 
-        <h3>Project 2</h3>
-        <p>tôi đam mê sáng tạo và muốn học hỏi thêm nhiều điều mới.</p>
+        <div class="projects-container">
+
+            <div class="project">
+                <span>01</span>
+                <h3>Designer Project</h3>
+
+                <p>
+                   tạo baner sản phẩm , quáng bá sản phẩm
+                </p>
+
+                <a href="#">View Project →</a>
+            </div>
+
     </section>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: thuy221006@gmail.com</p>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+
+        <h2>Let's Connect 🚀</h2>
+
+        <p>
+            Nếu muốn trao đổi về Designer,
+            hãy liên hệ với mình.
+        </p>
+
+        <a class="button" href="mailto:thuy221006@gmail.com">
+            Contact Me
+        </a>
+
     </section>
+
+
+    <footer>
+        <p>© 2026 Chán. All rights reserved.</p>
+    </footer>
 
 </body>
 </html>
